@@ -1,0 +1,56 @@
+/home/user/miniconda3/envs/py311/lib/python3.11/site-packages/llamea/llm.py:14: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+Ultra-Quick Test Mode (With Complexity Tracking)
+超极速模式: 只跑1个岛, 每个岛只评估1个算法
+目的: 纯功能测试, 验证系统是否跑通
+================================================================================
+Multi-Island Evolution of Heuristics - Complexity Tracking
+================================================================================
+Islands: 1
+Max Generations: 1
+Max Samples: 1
+Pop Size (top_seed): 1
+Total Evaluations: 1 islands × 1 gens × 1 samples = 1
+预计总运行时间: 0.1 分钟 (假设每次评估3分钟)
+预计总运行时间: 0.0 分钟 (假设每次评估1分钟)
+预计总运行时间: 0.0 分钟 (假设每次评估0.5分钟)
+================================================================================
+
+初始化LLM客户端 (Local vLLM - OpenAI Compatible)...
+✓ LLM客户端初始化完成
+
+初始化评估任务...
+✓ 评估任务初始化完成 (单次评估超时: 180秒)
+
+创建多岛进化实例 (With Complexity Tracking)...
+✓ 多岛进化实例创建完成
+
+================================================================================
+开始多岛进化实验 (With Complexity Tracking)...
+================================================================================
+
+================================================================================
+Multi-Island EoH - With Complexity Tracking
+================================================================================
+ 追踪OFE和LLM calls
+ 记录性能轨迹
+================================================================================
+顺序运行 1 个岛屿...
+
+================================================================================
+进度: 1/1
+================================================================================
+
+================================================================================
+ Island 0: Exploit
+================================================================================
+  无预算限制
+
+▶️  开始进化...
